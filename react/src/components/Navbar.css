@@ -1,0 +1,124 @@
+:root{
+    --dark--:#113946;
+    --light--:#ead7bb;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--dark--);
+    color: var(--light--);
+    
+}
+.nav-li{
+     list-style-type: none;
+     margin-top: 20px;
+     display: flex;
+     justify-content: space-between;
+     
+}
+.search{
+    margin-top: 23px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+.search::placeholder{
+    font-size:15px;
+    color: black;
+    text-transform: capitalize;
+}
+.nav-li li {
+    padding: 10px 45px;
+   
+    
+}
+.tag{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: var(--light--);
+    
+}
+.cartval{
+    position: absolute;
+    top: 22px;
+    font-size: 12px;
+    right: 330px;
+    background-color: var(--light--);
+        color: black;
+        padding: 3px;
+        border-radius:50%;
+
+}
+.tag:hover{
+    margin-top: 2px;
+    border-bottom: 3px solid yellowgreen ;
+   
+}
+.carticons{
+    color: #ead7bb;
+    font-size: 25px;
+}
+@media (max-width:769px){
+    .nav{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: var(--dark--);
+        color: var(--light--);
+        
+    }
+    .nav h1{
+        font-size: 20px;
+        text-transform: capitalize;
+        margin-top: 28px;
+    }
+    .nav-li{
+         list-style-type: none;
+         margin-top: 20px;
+         display: flex;
+         justify-content: space-between;
+         
+    }
+    .search{
+        margin-top: 23px;
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        border: none;
+    }
+    .search::placeholder{
+        font-size:14px;
+        color: black;
+        text-transform: capitalize;
+    }
+    .nav-li li {
+        padding: 10px;
+        
+    }
+    .tag{
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 18px;
+        color: var(--light--);
+
+
+     }
+    .cartval{
+        position: absolute;
+        top: 20px;
+        right: 80px;
+        font-size: 10px;
+        background-color: var(--light--);
+        color: black;
+        padding: 4px;
+        border-radius: 10px;
+
+    }
+    .carticons{
+        color: #ead7bb;
+        font-size: 22px;
+    }
+
+}
